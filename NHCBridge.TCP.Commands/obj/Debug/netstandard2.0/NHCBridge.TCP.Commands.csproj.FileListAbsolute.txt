@@ -1,0 +1,9 @@
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Commands\bin\Debug\netstandard2.0\NHCBridge.TCP.Commands.deps.json
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Commands\bin\Debug\netstandard2.0\NHCBridge.TCP.Commands.dll
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Commands\bin\Debug\netstandard2.0\NHCBridge.TCP.Commands.pdb
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Commands\obj\Debug\netstandard2.0\NHCBridge.TCP.Commands.csprojAssemblyReference.cache
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Commands\obj\Debug\netstandard2.0\NHCBridge.TCP.Commands.csproj.CoreCompileInputs.cache
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Commands\obj\Debug\netstandard2.0\NHCBridge.TCP.Commands.AssemblyInfoInputs.cache
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Commands\obj\Debug\netstandard2.0\NHCBridge.TCP.Commands.AssemblyInfo.cs
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Commands\obj\Debug\netstandard2.0\NHCBridge.TCP.Commands.dll
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Commands\obj\Debug\netstandard2.0\NHCBridge.TCP.Commands.pdb

@@ -1,0 +1,14 @@
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\bin\Debug\netcoreapp2.1\NHCBridge.Console.deps.json
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\bin\Debug\netcoreapp2.1\NHCBridge.Console.runtimeconfig.json
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\bin\Debug\netcoreapp2.1\NHCBridge.Console.runtimeconfig.dev.json
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\bin\Debug\netcoreapp2.1\NHCBridge.Console.dll
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\bin\Debug\netcoreapp2.1\NHCBridge.Console.pdb
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\obj\Debug\netcoreapp2.1\NHCBridge.Console.csprojAssemblyReference.cache
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\obj\Debug\netcoreapp2.1\NHCBridge.Console.csproj.CoreCompileInputs.cache
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\obj\Debug\netcoreapp2.1\NHCBridge.Console.AssemblyInfoInputs.cache
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\obj\Debug\netcoreapp2.1\NHCBridge.Console.AssemblyInfo.cs
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\obj\Debug\netcoreapp2.1\NHCBridge.Console.dll
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\obj\Debug\netcoreapp2.1\NHCBridge.Console.pdb
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\bin\Debug\netcoreapp2.1\NHCBridge.TCP.Commands.dll
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\bin\Debug\netcoreapp2.1\NHCBridge.TCP.Commands.pdb
+c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.Console\obj\Debug\netcoreapp2.1\NHCBridge.Console.csproj.CopyComplete
