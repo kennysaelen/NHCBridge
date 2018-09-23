@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHCBridge.NHCCommands", "NHCBridge.TCP.Commands\NHCBridge.NHCCommands.csproj", "{DE25247C-3747-4FF4-9976-93EE3A748347}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHCBridge.NHCCommands", "NHCBridge.NHCCommands\NHCBridge.NHCCommands.csproj", "{DE25247C-3747-4FF4-9976-93EE3A748347}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHCBridge.Console", "NHCBridge.Console\NHCBridge.Console.csproj", "{7D7401CF-787B-4A0A-9266-5553ACE5B81A}"
 EndProject

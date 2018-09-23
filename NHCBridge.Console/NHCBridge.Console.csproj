@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NHCBridge.TCP.Commands\NHCBridge.NHCCommands.csproj" />
+    <ProjectReference Include="..\NHCBridge.NHCCommands\NHCBridge.NHCCommands.csproj" />
   </ItemGroup>
 
 </Project>

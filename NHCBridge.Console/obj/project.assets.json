@@ -726,8 +726,8 @@
     },
     "NHCBridge.NHCCommands/1.0.0": {
       "type": "project",
-      "path": "../NHCBridge.TCP.Commands/NHCBridge.NHCCommands.csproj",
-      "msbuildProject": "../NHCBridge.TCP.Commands/NHCBridge.NHCCommands.csproj"
+      "path": "../NHCBridge.NHCCommands/NHCBridge.NHCCommands.csproj",
+      "msbuildProject": "../NHCBridge.NHCCommands/NHCBridge.NHCCommands.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -766,8 +766,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.TCP.Commands\\NHCBridge.NHCCommands.csproj": {
-              "projectPath": "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.TCP.Commands\\NHCBridge.NHCCommands.csproj"
+            "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.NHCCommands\\NHCBridge.NHCCommands.csproj": {
+              "projectPath": "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.NHCCommands\\NHCBridge.NHCCommands.csproj"
             }
           }
         }

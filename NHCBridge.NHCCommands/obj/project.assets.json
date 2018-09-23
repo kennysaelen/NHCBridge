@@ -220,11 +220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.TCP.Commands\\NHCBridge.NHCCommands.csproj",
+      "projectUniqueName": "c:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.NHCCommands\\NHCBridge.NHCCommands.csproj",
       "projectName": "NHCBridge.NHCCommands",
-      "projectPath": "c:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.TCP.Commands\\NHCBridge.NHCCommands.csproj",
+      "projectPath": "c:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.NHCCommands\\NHCBridge.NHCCommands.csproj",
       "packagesPath": "C:\\Users\\kenny\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.TCP.Commands\\obj\\",
+      "outputPath": "c:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.NHCCommands\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
