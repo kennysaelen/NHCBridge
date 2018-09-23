@@ -6,11 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.JSON" Version="11.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\NHCBridge.TCP.Commands\NHCBridge.TCP.Commands.csproj" />
+    <ProjectReference Include="..\NHCBridge.TCP.Commands\NHCBridge.NHCCommands.csproj" />
   </ItemGroup>
 
 </Project>

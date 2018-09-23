@@ -1,9 +1,0 @@
-c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Parser\bin\Debug\netstandard2.0\NHCBridge.TCP.Parser.deps.json
-c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Parser\bin\Debug\netstandard2.0\NHCBridge.TCP.Parser.dll
-c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Parser\bin\Debug\netstandard2.0\NHCBridge.TCP.Parser.pdb
-c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Parser\obj\Debug\netstandard2.0\NHCBridge.TCP.Parser.csprojAssemblyReference.cache
-c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Parser\obj\Debug\netstandard2.0\NHCBridge.TCP.Parser.csproj.CoreCompileInputs.cache
-c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Parser\obj\Debug\netstandard2.0\NHCBridge.TCP.Parser.AssemblyInfoInputs.cache
-c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Parser\obj\Debug\netstandard2.0\NHCBridge.TCP.Parser.AssemblyInfo.cs
-c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Parser\obj\Debug\netstandard2.0\NHCBridge.TCP.Parser.dll
-c:\Users\kenny\Documents\CodeSources\NHCBridge\NHCBridge.TCP.Parser\obj\Debug\netstandard2.0\NHCBridge.TCP.Parser.pdb

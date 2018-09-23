@@ -217,14 +217,17 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "NHCBridge.TCP.Commands/1.0.0": {
+      "NHCBridge.NHCCommands/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.JSON": "11.0.2"
+        },
         "compile": {
-          "bin/placeholder/NHCBridge.TCP.Commands.dll": {}
+          "bin/placeholder/NHCBridge.NHCCommands.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NHCBridge.TCP.Commands.dll": {}
+          "bin/placeholder/NHCBridge.NHCCommands.dll": {}
         }
       }
     }
@@ -721,17 +724,16 @@
         "newtonsoft.json.nuspec"
       ]
     },
-    "NHCBridge.TCP.Commands/1.0.0": {
+    "NHCBridge.NHCCommands/1.0.0": {
       "type": "project",
-      "path": "../NHCBridge.TCP.Commands/NHCBridge.TCP.Commands.csproj",
-      "msbuildProject": "../NHCBridge.TCP.Commands/NHCBridge.TCP.Commands.csproj"
+      "path": "../NHCBridge.TCP.Commands/NHCBridge.NHCCommands.csproj",
+      "msbuildProject": "../NHCBridge.TCP.Commands/NHCBridge.NHCCommands.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "NHCBridge.TCP.Commands >= 1.0.0",
-      "Newtonsoft.JSON >= 11.0.2"
+      "NHCBridge.NHCCommands >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -764,8 +766,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.TCP.Commands\\NHCBridge.TCP.Commands.csproj": {
-              "projectPath": "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.TCP.Commands\\NHCBridge.TCP.Commands.csproj"
+            "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.TCP.Commands\\NHCBridge.NHCCommands.csproj": {
+              "projectPath": "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.TCP.Commands\\NHCBridge.NHCCommands.csproj"
             }
           }
         }
@@ -783,10 +785,6 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
-          },
-          "Newtonsoft.JSON": {
-            "target": "Package",
-            "version": "[11.0.2, )"
           }
         },
         "imports": [

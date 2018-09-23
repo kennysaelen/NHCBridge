@@ -1,6 +1,6 @@
 using System;
 
-namespace NHCBridge.TCP.Commands
+namespace NHCBridge.NHCCommands
 {
     public class NHCSwitchLightCommand : INHCCommand
     {

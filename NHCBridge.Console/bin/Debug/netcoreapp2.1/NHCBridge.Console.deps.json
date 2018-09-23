@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v2.1": {
       "NHCBridge.Console/1.0.0": {
         "dependencies": {
-          "NHCBridge.TCP.Commands": "1.0.0",
-          "Newtonsoft.Json": "11.0.2"
+          "NHCBridge.NHCCommands": "1.0.0"
         },
         "runtime": {
           "NHCBridge.Console.dll": {}
@@ -23,9 +22,12 @@
           }
         }
       },
-      "NHCBridge.TCP.Commands/1.0.0": {
+      "NHCBridge.NHCCommands/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
         "runtime": {
-          "NHCBridge.TCP.Commands.dll": {}
+          "NHCBridge.NHCCommands.dll": {}
         }
       }
     }
@@ -43,7 +45,7 @@
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
-    "NHCBridge.TCP.Commands/1.0.0": {
+    "NHCBridge.NHCCommands/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

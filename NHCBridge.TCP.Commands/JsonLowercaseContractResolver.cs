@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json.Serialization;
 
-namespace NHCBridge.Console
+namespace NHCBridge.NHCCommands
 {
     public class JsonLowercaseContractResolver : DefaultContractResolver
     {
