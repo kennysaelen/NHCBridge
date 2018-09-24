@@ -12,9 +12,7 @@ namespace NHCBridge.NHCCommands
 
         public void execute()
         {
-            TcpClient theClient = new TcpClient();
-            theClient.ConnectAsync("192.168.2.51", 8000).Wait();
-            NetworkStream theStream = theClient.GetStream();
+            StringBuilder myCompleteMessage = new StringBuilder();
 
             JsonSerializerSettings settings = new JsonSerializerSettings()
                                                     {
@@ -24,12 +22,34 @@ namespace NHCBridge.NHCCommands
             string json = JsonConvert.SerializeObject(Command, settings);
             var bytesToSend = Encoding.ASCII.GetBytes(json);
             
-            //var bytesToSend = Encoding.ASCII.GetBytes("{\"cmd\":\"listactions\"}");
-            
-            theStream.Write(bytesToSend, 0, bytesToSend.Length);
-            theStream.Flush();
+            using (TcpClient theClient = new TcpClient())
+            {
+                theClient.ConnectAsync("192.168.2.51", 8000).Wait();
+                
+                using(NetworkStream theStream = theClient.GetStream())
+                {
+                    // Write the JSON command to the NHC IP interface
+                    theStream.Write(bytesToSend, 0, bytesToSend.Length);
 
-            theClient.Close();
+                    // Receive the response from the NHC IP interface
+                    int numberOfBytesRead = 0;
+                    byte[] myReadBuffer = new byte[1024];
+                    
+                    do
+                    {
+                        numberOfBytesRead = theStream.Read(myReadBuffer, 0, myReadBuffer.Length);
+                        myCompleteMessage.AppendFormat("{0}", Encoding.ASCII.GetString(myReadBuffer, 0, numberOfBytesRead));
+                    }
+                    while (theStream.DataAvailable);
+
+                    theStream.Flush();
+                }
+
+                theClient.Close();
+            }
+
+            // Store the incoming JSON as a response in the command
+            Command.CommandResult = myCompleteMessage.ToString();
         }
     }
 }

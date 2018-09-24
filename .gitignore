@@ -1,0 +1,16 @@
+NHCBridge.Console/obj/NHCBridge.Console.csproj.nuget.g.props
+NHCBridge.Console/bin/Debug/netcoreapp2.1/NHCBridge.Console.dll
+NHCBridge.Console/bin/Debug/netcoreapp2.1/NHCBridge.Console.pdb
+NHCBridge.Console/bin/Debug/netcoreapp2.1/NHCBridge.NHCCommands.dll
+NHCBridge.Console/bin/Debug/netcoreapp2.1/NHCBridge.NHCCommands.pdb
+NHCBridge.Console/obj/NHCBridge.Console.csproj.nuget.cache
+NHCBridge.NHCCommands/obj/Debug/netstandard2.0/NHCBridge.NHCCommands.csproj.CoreCompileInputs.cache
+NHCBridge.Console/obj/Debug/netcoreapp2.1/NHCBridge.Console.dll
+NHCBridge.Console/obj/Debug/netcoreapp2.1/NHCBridge.Console.pdb
+NHCBridge.Console/obj/Debug/netcoreapp2.1/NHCBridge.Console.assets.cache
+NHCBridge.Console/obj/Debug/netcoreapp2.1/NHCBridge.Console.csprojAssemblyReference.cache
+NHCBridge.Console/obj/Debug/netcoreapp2.1/NHCBridge.Console.csprojResolveAssemblyReference.cache
+NHCBridge.NHCCommands/bin/Debug/netstandard2.0/NHCBridge.NHCCommands.dll
+NHCBridge.NHCCommands/bin/Debug/netstandard2.0/NHCBridge.NHCCommands.pdb
+NHCBridge.NHCCommands/obj/Debug/netstandard2.0/NHCBridge.NHCCommands.dll
+NHCBridge.NHCCommands/obj/Debug/netstandard2.0/NHCBridge.NHCCommands.pdb

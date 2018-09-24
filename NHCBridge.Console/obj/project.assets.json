@@ -743,11 +743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.Console\\NHCBridge.Console.csproj",
+      "projectUniqueName": "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.Console\\NHCBridge.Console.csproj",
       "projectName": "NHCBridge.Console",
-      "projectPath": "c:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.Console\\NHCBridge.Console.csproj",
+      "projectPath": "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.Console\\NHCBridge.Console.csproj",
       "packagesPath": "C:\\Users\\kenny\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.Console\\obj\\",
+      "outputPath": "C:\\Users\\kenny\\Documents\\CodeSources\\NHCBridge\\NHCBridge.Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
