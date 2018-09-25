@@ -6,10 +6,19 @@ using Newtonsoft.Json;
 
 namespace NHCBridge.NHCCommands
 {
+    /// <summary>
+    /// Runner class to run NHC commands over a TCP/IP client.
+    /// </summary>
     public class NHCCommandRunner : INHCCommandRunner
     {
+        /// <summary>
+        /// The specific <c>Command</c> to run.
+        /// </summary>
         public INHCCommand Command { get; set; }
 
+        /// <summary>
+        /// Executes the command by serializing the command to JSON and sending it over a TCP/IP client to the NHC IP Interface
+        /// </summary>
         public void execute()
         {
             StringBuilder myCompleteMessage = new StringBuilder();

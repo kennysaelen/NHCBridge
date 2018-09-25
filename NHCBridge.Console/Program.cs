@@ -6,31 +6,39 @@ namespace NHCBridge.Console
     {
         static void Main(string[] args)
         {
-            Program.runSwitchCommand("executeactions", 16, "0");
-            Program.runSwitchCommand("executeactions", 15, "0");
+            Program.runSwitchCommand(16, "0");
+            Program.runSwitchCommand(15, "0");
             System.Threading.Thread.Sleep(1500);
-            Program.runSwitchCommand("executeactions", 16, "100");
+            Program.runSwitchCommand(16, "100");
             System.Threading.Thread.Sleep(2000);
-            Program.runSwitchCommand("executeactions", 15, "100");
+            Program.runSwitchCommand(15, "100");
             Program.runListActionsCommand();
+            Program.runListLocationsCommand();
+            Program.runSystemInfoCommand();
         }
 
-        public static void runSwitchCommand(string command, int id, string value1)
+        public static void runSwitchCommand(int id, string value1)
         {
             Program.runCommand(new NHCSwitchLightCommand() 
                                         {
                                                 Id = id
                                             ,   Value1 = value1
-                                            ,   Command = command
                                         });
         }
 
         public static void runListActionsCommand()
         {
-            Program.runCommand(new NHCSwitchLightCommand() 
-                                        {
-                                            Command = "listactions"
-                                        });
+            Program.runCommand(new NHCListActionsCommand());
+        }
+
+        public static void runListLocationsCommand()
+        {
+            Program.runCommand(new NHCListLocationsCommand());
+        }
+
+        public static void runSystemInfoCommand()
+        {
+            Program.runCommand(new NHCSystemInfoCommand());
         }
 
         public static void runCommand(INHCCommand command)

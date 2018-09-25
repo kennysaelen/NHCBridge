@@ -4,7 +4,7 @@ namespace NHCBridge.NHCCommands
 {
     public interface INHCCommand
     {
-        string  Command { get; set; }
+        string  Command { get; }
 
         string CommandResult { get; set; }
     }
