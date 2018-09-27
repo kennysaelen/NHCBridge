@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json;
 
 namespace NHCBridge.NHCCommands
 {
@@ -6,6 +7,7 @@ namespace NHCBridge.NHCCommands
     {
         string  Command { get; }
 
+        [JsonIgnore]
         string CommandResult { get; set; }
     }
 }

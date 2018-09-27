@@ -6,6 +6,7 @@ namespace NHCBridge.Console
     {
         static void Main(string[] args)
         {
+            Program.runStartEventsCommand();
             Program.runSwitchCommand(16, "0");
             Program.runSwitchCommand(15, "0");
             System.Threading.Thread.Sleep(1500);
@@ -29,6 +30,11 @@ namespace NHCBridge.Console
         public static void runListActionsCommand()
         {
             Program.runCommand(new NHCListActionsCommand());
+        }
+
+        public static void runStartEventsCommand()
+        {
+            Program.runCommand(new NHCStartEventsCommand());
         }
 
         public static void runListLocationsCommand()
